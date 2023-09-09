@@ -1,0 +1,38 @@
+.nav{
+    background-color: grey;
+    height: 75px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-title{
+    margin-right: 380px;            /*Profile*/
+    color: floralwhite;
+    
+}
+.btn{
+    background-color: darkcyan;
+    color: floralwhite;
+    border-color: black;
+    border-style: solid;                /*buttons*/
+    box-shadow: 2px 3px 0px #000;
+    margin-right: 20px;
+    margin-left: 40px;
+    height: 30px;
+    width: 80px;
+}
+.active{
+    margin-right: 50px; 
+    margin-left: 50px;              /* My Profile */
+}
+.nav-links{ 
+    color: floralwhite;
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+}
+a{
+    color: floralwhite;
+    text-decoration: none;
+}
